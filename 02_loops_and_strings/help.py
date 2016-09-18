@@ -1,0 +1,2 @@
+help([].append)
+dir(str)

@@ -1,9 +1,6 @@
-s = 'string'
-l = list(s)
-print(s[:3], l[:3])
+s1 = 'abc123_&'
+s2 = 'Привет, мир'
+s3 = "I'm hungry and you\'re not"
 
+print(s1, '\n', s2, '\n', s3)
 
-#s[:3] = 'aight'
-l[3:] = list('aight')
-s = s[:3] + 'aight'
-print(l, s)

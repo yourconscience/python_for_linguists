@@ -2,14 +2,14 @@ number = 23
 guess = 0
 
 for attempt in range(1, 8):
-    guess = int(input('Try to guess my number (' + str(attempt) + '/7): '))
+    guess = int(input('Your guess ({}/7): '.format(str(attempt))))
     if number == guess:
         print('Well done!')
         break
     elif number < guess:
-        print('My number is less than yours.')
+        print('Too big.')
     else:
-        print('My number is greater than yours.')
+        print('Too small.')
 else:
-    print('Sorry, you are out of attempts')
+    print('You are out of attempts')
 

@@ -35,4 +35,4 @@ pip-delete-this-directory.txt
 .ipynb_checkpoints
 
 # Swap files
-*.swp
+\.*.swp

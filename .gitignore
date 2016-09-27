@@ -33,3 +33,6 @@ pip-delete-this-directory.txt
 
 # IPython Notebook
 .ipynb_checkpoints
+
+# Swap files
+*.swp
